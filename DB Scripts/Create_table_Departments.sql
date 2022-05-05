@@ -1,0 +1,19 @@
+USE [master]
+GO
+
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[Departments](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [varchar](50) NOT NULL	
+PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)
+) 
+
+
